@@ -1,0 +1,86 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap'); */
+
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand img, footer img{
+    height:25px
+}
+
+.row img{
+    width: 286px; 
+    max-height: 180px;
+}
+
+.card{
+    width: 18rem;
+}
+
+
+.card-title{
+    color: #28a745;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.card-body{
+    font-weight: 300;
+}
+
+div i{
+    color: #28a745;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: end;
+    font-weight: 500;
+}
+
+.precio{
+    opacity: 50%;
+    align-self: center;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.oferta{
+    margin-left: 50px;
+    color: green;
+    font-size: 25px;
+    font-weight: 500;
+    align-self: center;
+    margin-bottom: 0px;
+}
+
+footer img{
+    height:25px;
+}
+
+
+/* Style par el contenedor del boton de retorno */
+.retorno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+
+/* Style para el boton de retorno */
+.return-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+/* Style para el boton de retorno con hoover */
+.return-button:hover {
+    background-color: #3e8e41;}
